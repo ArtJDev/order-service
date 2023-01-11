@@ -11,7 +11,6 @@ import ru.itbooks.orderservice.services.OrderService;
 @RestController
 @RequestMapping("orders")
 public class OrderController {
-
     private final OrderService orderService;
 
     public OrderController(OrderService orderService) {

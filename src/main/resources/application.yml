@@ -9,7 +9,7 @@ spring:
   application:
     name: order-service
   lifecycle:
-      timeout-per-shutdown-phase: 15s
+    timeout-per-shutdown-phase: 15s
   r2dbc:
     username: user
     password: password
