@@ -21,7 +21,7 @@
 ## Тестовые данные
 В базе данных сервиса [product-service](https://github.com/ArtJDev/product-service) существуют книги с артиклями 00100, 00101, 00102.
 
-Json объект для пост запросов {
+Json объект для POST запросов {
     "article": "00100",
     "quantity": 3
 }
