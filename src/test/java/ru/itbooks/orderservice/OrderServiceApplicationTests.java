@@ -63,9 +63,10 @@ class OrderServiceApplicationTests {
         webTestClient.get().uri("/orders")
                 .exchange()
                 .expectStatus().is2xxSuccessful()
-                .expectBodyList(Order.class).value(orders -> {
-                    assertThat(orders.stream().filter(order -> order.bookArticle().equals(article)).findAny()).isNotEmpty();
-                });
+                .expectBodyList(Order.class).value(orders -> assertThat(orders.stream()
+                        .filter(order -> order.bookArticle().equals(article))
+                        .findAny())
+                        .isNotEmpty());
     }
 
     @Test
