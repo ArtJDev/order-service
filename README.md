@@ -1,7 +1,7 @@
 # order-service (ITBooks)
 Сервис для оформления заказа из интернет магазина ITBooks
 
-**Стек: Java 17, Spring Boot 3.0, Spring WebFlux, Spring Cloud Functions, Spring Cloud Stream, RabbitMQ, Spring Data JDBC, Spring Data R2DBC, PostgreSQL, Flyway, JUnit, Mockito, Testcontainers, Gradle, Docker.**
+**Стек: Java 17, Spring Boot 3.0, Spring WebFlux, Spring Cloud Function, Spring Cloud Stream, RabbitMQ, Spring Data JDBC, Spring Data R2DBC, PostgreSQL, Flyway, JUnit, Mockito, Testcontainers, Gradle, Docker.**
 ## Описание
 Проект представляет собой микросервис для оформления заказов из интернет магазина ITBooks. 
 Проект написан в рективном стиле с использованием WebClient и реактивным драйвером R2DBC базы данных PostgreSQL.
